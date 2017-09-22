@@ -1,10 +1,17 @@
 {
   "name": "airplane_price_monitor",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Hobby project for web scraping different airplane tickets prices",
   "main": "monitor_wizzair.js",
   "dependencies": {
-    "osmosis": "^1.1.4"
+    "airports": "^1.0.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "chalk": "^2.1.0",
+    "chalk-rainbow": "^1.0.0",
+    "date-format": "^1.1.0",
+    "osmosis": "^1.1.4",
+    "pretty-ms": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
