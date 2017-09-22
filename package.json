@@ -1,18 +1,23 @@
 {
-  "name": "AiplanePricesMonitor",
-  "version": "0.1.0",
-  "description": "Monitor Bulgaria Air Sofia-Varna round trip fair prices.",
-  "main": "index.js",
-  "bin": {
-    "swa": "index.js"
+  "name": "airplane_price_monitor",
+  "version": "0.9.0",
+  "description": "Hobby project for web scraping different airplane tickets prices",
+  "main": "monitor_wizzair.js",
+  "dependencies": {
+    "osmosis": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aragar/AirplanePricesMonitor"
+    "url": "git+https://github.com/aragar/AirplanePricesMonitor.git"
   },
   "author": "Radoslav Rachev",
-  "license": "MIT",
-  "dependencies": {
-    "osmosis": "^1.0.2"
-  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aragar/AirplanePricesMonitor/issues"
+  },
+  "homepage": "https://github.com/aragar/AirplanePricesMonitor#readme"
 }
